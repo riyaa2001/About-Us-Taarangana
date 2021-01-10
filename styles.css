@@ -134,7 +134,7 @@ body {
   background: #292929;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 730px) {
   .skw-page__half--left .skw-page__content {
     margin-top: 5px;
     padding-left: 7%;
