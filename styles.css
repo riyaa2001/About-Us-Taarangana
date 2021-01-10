@@ -135,19 +135,6 @@ body {
 }
 
 @media screen and (max-width: 730px) {
-  .skw-page__half--left .skw-page__content {
-    margin-top: 5px;
-    padding-left: 7%;
-    padding-right: 25%;
-    padding-bottom: 200px;
-    transform-origin: 100% 0;
-    margin-right: 10px;
-  }
-  .skw-page__half--right .skw-page__content {
-    padding-left: 30%;
-    padding-right: 7%;
-    padding-top: 300px;
-    transform-origin: 0 100%;
-  }
+  
 
 }
