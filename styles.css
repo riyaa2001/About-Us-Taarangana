@@ -92,9 +92,7 @@ body {
 }
 .skw-page__description {
   font-size: 20px;
-  text-align: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  text-align: center;
 }
 .skw-page__half--left .skw-page__description{
   padding-bottom: 200px;
@@ -133,8 +131,33 @@ body {
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #292929;
 }
+@media screen and (min-width: 600px){
+  .skw-page__half--left .skw-page__content {
+    padding-left: 30%;
+    padding-right: 30%;
+    transform-origin: 100% 0;
+  }
+  .skw-page__half--right .skw-page__content {
+    padding-left: 30%;
+    padding-right: 30%;
+    transform-origin: 0 100%;
+  }
+}
 
-@media screen and (max-width: 730px) {
-  
+@media screen and (max-width: 600px) {
+  .skw-page__half--left .skw-page__content {
+    margin-top: 5px;
+    padding-left: 7%;
+    padding-right: 25%;
+    padding-bottom: 200px;
+    transform-origin: 100% 0;
+    margin-right: 10px;
+  }
+  .skw-page__half--right .skw-page__content {
+    padding-left: 30%;
+    padding-right: 7%;
+    padding-top: 300px;
+    transform-origin: 0 100%;
+  }
 
 }
