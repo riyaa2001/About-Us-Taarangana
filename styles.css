@@ -131,7 +131,7 @@ body {
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #292929;
 }
-@media screen and (min-width: 400px){
+@media screen and (min-width: 300px){
   .skw-page__half--left .skw-page__content {
     padding-left: 30%;
     padding-right: 30%;
