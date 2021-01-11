@@ -128,13 +128,12 @@ body {
   background: #292929;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 600px) {
   .skw-page__half--left .skw-page__content {
     padding-left: 15%;
     padding-right: 3%;
     padding-bottom: 400px;
     transform-origin: 100% 0;
-    margin-right: 10px;
   }
   .skw-page__half--right .skw-page__content {
     padding-left: 3%;
@@ -163,13 +162,11 @@ body {
   .skw-page__half--right .skw-page__description{
     margin-left: 15vw;
     width: 70%;
-    font-size: 75%;
+    font-size: 85%;
   }
   .skw-page__half--left .skw-page__description{
     margin-right: 15vw;
     width: 70%;
-    font-size: 75%;
+    font-size: 85%;
   }
-
-
 }
