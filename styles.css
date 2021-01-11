@@ -131,7 +131,7 @@ body {
 @media screen and (max-width: 630px) {
   .skw-page__half--left .skw-page__content {
     margin-top: 5px;
-    padding-left: 25%;
+    padding-left: 15%;
     padding-right: 3%;
     padding-bottom: 400px;
     transform-origin: 100% 0;
@@ -139,7 +139,7 @@ body {
   }
   .skw-page__half--right .skw-page__content {
     padding-left: 3%;
-    padding-right: 25%;
+    padding-right: 15%;
     padding-top: 300px;
     transform-origin: 0 100%;
   }
