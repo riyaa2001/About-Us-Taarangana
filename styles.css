@@ -145,6 +145,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .skw-page__description{
+    font-size: 0.75rem;
+  }
   .skw-page__half--left .skw-page__content {
     margin-top: 5px;
     padding-left: 7%;
