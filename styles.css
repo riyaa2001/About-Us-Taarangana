@@ -130,7 +130,6 @@ body {
 
 @media screen and (max-width: 630px) {
   .skw-page__half--left .skw-page__content {
-    margin-top: 5px;
     padding-left: 15%;
     padding-right: 3%;
     padding-bottom: 400px;
