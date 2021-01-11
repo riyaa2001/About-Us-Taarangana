@@ -58,7 +58,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: column wrap; 
+  flex-flow: column wrap;
   position: absolute;
   left: 0;
   top: 0;
@@ -91,12 +91,8 @@ body {
   text-align: center;
 }
 .skw-page__description {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-}
-.skw-page__half--left .skw-page__description{
-  padding-bottom: 200px;
-  padding-left: 15px;
 }
 .skw-page__link {
   color: #FFA0A0;
@@ -131,36 +127,50 @@ body {
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #292929;
 }
-@media screen and (min-width: 300px){
-  .skw-page__half--left .skw-page__content {
-    padding-left: 30%;
-    padding-right: 30%;
-    transform-origin: 100% 0;
-  }
-  .skw-page__half--right .skw-page__content {
-    padding-left: 30%;
-    padding-right: 30%;
-    transform-origin: 0 100%;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .skw-page__description{
-    font-size: 0.75rem;
-  }
+@media screen and (max-width: 630px) {
   .skw-page__half--left .skw-page__content {
     margin-top: 5px;
-    padding-left: 7%;
-    padding-right: 25%;
-    padding-bottom: 200px;
+    padding-left: 30%;
+    padding-right: 3%;
+    padding-bottom: 400px;
     transform-origin: 100% 0;
     margin-right: 10px;
   }
   .skw-page__half--right .skw-page__content {
-    padding-left: 30%;
-    padding-right: 7%;
+    padding-left: 3%;
+    padding-right: 30%;
     padding-top: 300px;
     transform-origin: 0 100%;
   }
+
+  .skw-page__half--left .skw-page__skewed {
+    left: -100%;
+  }
+  .skw-page__half--right .skw-page__skewed {
+    right: -100%;
+  }
+  .skw-page__skewed{
+    width: 200%;
+  }
+  .skw-page__half--right .skw-page__heading{
+    margin-left: 15vw;
+    font-size: 75%;
+  }
+  .skw-page__half--left .skw-page__heading{
+    margin-right: 15vw;
+    font-size: 75%;
+  }
+  .skw-page__half--right .skw-page__description{
+    margin-left: 15vw;
+    width: 70%;
+    font-size: 75%;
+  }
+  .skw-page__half--left .skw-page__description{
+    margin-right: 15vw;
+    width: 70%;
+    font-size: 75%;
+  }
+
 
 }
