@@ -148,16 +148,16 @@ h1{
 }
 @media screen and (max-width: 600px) {
   .skw-page__half--left .skw-page__content {
-    padding-left: 25%;
-    padding-right: 5%;
-    padding-bottom: 350px;
+    padding-left: 17%;
+    padding-right: 3%;
+    padding-bottom: 340px;
     transform-origin: 100% 0;
     margin-right: 20pxpx;
   }
   .skw-page__half--right .skw-page__content {
-    padding-left: 15%;
-    padding-right: 20%;
-    padding-top: 350px;
+    padding-left: 13%;
+    padding-right: 15%;
+    padding-top: 300px;
     transform-origin: 0 100%;
   }
 
