@@ -141,16 +141,6 @@ h1{
   background-position: center;
   background-image: url("img4.png");
 }
-.skw-page-5 .skw-page__half--left .skw-page__content {
-  background-position: 1000px 700px;
-  background-image: url("img14.jpg");
-}
-.skw-page-5 .skw-page__half--right .skw-page__content {
-  background-position: 1000px 700px;
-  background-image: url("https://lh3.googleusercontent.com/proxy/QtKzVb41Ap5YBI4vacniDo9-cKcO-uurzZhLo5Mhxqere4MUW-X2VDOb0iN2PhoOu5u4bp02bF1GpKtLwDSXQWvP4XhRV_Fj1MabUV8uJ4hAuC9-_lwJoJmBoWO_lebdvBSmS0QZHFPdm4laub2VmCB45VuK97XS4z1dYYQ");
-  /* background-repeat: no-repeat; */
-}
-
 @media screen and (max-width: 600px) {
   .skw-page__half--left .skw-page__content {
     padding-left: 15%;
@@ -192,9 +182,8 @@ h1{
     width: 70%;
     font-size: 85%;
   }
-  @media screen and (min-width: 400px){
     .skw-page-1 .skw-page__half--left .skw-page__content {
-      background-position: 950px 700px;
+      background-position: 70% 100%;
       padding-bottom: 500px;
       background-image: url("https://media-exp1.licdn.com/dms/image/C511BAQGewPf3OCFrMQ/company-background_10000/0/1531682173387?e=2159024400&v=beta&t=Ns92fzokhAPk1mZOCuwFxB5hUOafW6O6Lo-OaD86kTM");
     }
@@ -205,17 +194,9 @@ h1{
       background-repeat: no-repeat;
       object-fit: cover;
     }
-    .skw-page-5 .skw-page__half--left .skw-page__content {
-      background-position: 900px 700px;
-      background-image: url("img14.jpg");
-      padding-bottom: 300px;
-      padding-left: 700px;
+    .skw-page-4 .skw-page__half--right .skw-page__content {
+      background-position: cover;
+      background-image: url("img4.png");
     }
-    .skw-page-5 .skw-page__half--right .skw-page__content {
-      background-position: 750px 700px;
-      padding-right: 700px;
-      background-image: url("img12.jpeg") no-repeat cover;
-    }
-  }
 }
 
