@@ -140,11 +140,12 @@ h1{
   background-image: url("img4.png");
 }
 .skw-page-5 .skw-page__half--right .skw-page__content{
-  background-color: pink;
+  background-color: palevioletred;
   color: white;
 }
 .skw-page-5 .skw-page__half--left .skw-page__content{
-  background-image: url("https://ffwallpaper.com/thumb/colorful-patterns/colorful-patterns-4.jpg");
+  background-image: url("img100.jpg");
+  background-position: center;
 }
 @media screen and (max-width: 600px) {
   .skw-page__half--left .skw-page__content {
