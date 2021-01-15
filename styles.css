@@ -189,7 +189,7 @@ h1{
   }
     .skw-page-1 .skw-page__half--left .skw-page__content {
       height: 700px;
-      
+      background-image: url("i_logo3.jpeg");
     }
     .skw-page-4 .skw-page__half--right .skw-page__content {
       background-position: cover;
