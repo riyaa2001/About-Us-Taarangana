@@ -9,6 +9,11 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
 .skw-pages {
   overflow: hidden;
   position: relative;
@@ -98,34 +103,47 @@ body {
   color: #FFA0A0;
 }
 .skw-page-1 .skw-page__half--left .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-1.jpg");
+  background-position: center;
+  background-image: url("https://pbs.twimg.com/profile_images/682837594409844736/-vkKIoMI.jpg");
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
-  background: #292929;
+  background-position: center;
+  background-image: url("https://media-exp1.licdn.com/dms/image/C511BAQGewPf3OCFrMQ/company-background_10000/0/1531682173387?e=2159024400&v=beta&t=Ns92fzokhAPk1mZOCuwFxB5hUOafW6O6Lo-OaD86kTM");
+  opacity: 0.4;
+  object-fit: cover;
 }
 .skw-page-2 .skw-page__half--left .skw-page__content {
-  background: #292929;
+  background-position: center;
+  background-image: url("https://fsb.zobj.net/crop.php?r=51rsIpA4lO7cULPjq06rzDtvEVj8WRmulDcoSgsHO7b542dLAavDd-ulwjMK8KeCNC6bTGv8_4gqUf5VG8VMM5rCfrt3JlOKxH7MpUW-OTePMvrn5lnvnk95vgx8mZP6-_bgd1wRisKmXnsH");
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg");
+  background-position: center;
+  background-image: url("img11.jpeg");
 }
 .skw-page-3 .skw-page__half--left .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/mousover-img-2.jpg");
+  background-position: center;
+  background-image: url("img8.jpeg");
+  padding-bottom: 100px;
 }
 .skw-page-3 .skw-page__half--right .skw-page__content {
-  background: #292929;
+  background-position: center;
+  background-image: url("https://fsb.zobj.net/crop.php?r=51rsIpA4lO7cULPjq06rzDtvEVj8WRmulDcoSgsHO7b542dLAavDd-ulwjMK8KeCNC6bTGv8_4gqUf5VG8VMM5rCfrt3JlOKxH7MpUW-OTePMvrn5lnvnk95vgx8mZP6-_bgd1wRisKmXnsH");
 }
 .skw-page-4 .skw-page__half--left .skw-page__content {
-  background: #292929;
+  background-position: center;
+  background-image: url("https://fsb.zobj.net/crop.php?r=51rsIpA4lO7cULPjq06rzDtvEVj8WRmulDcoSgsHO7b542dLAavDd-ulwjMK8KeCNC6bTGv8_4gqUf5VG8VMM5rCfrt3JlOKxH7MpUW-OTePMvrn5lnvnk95vgx8mZP6-_bgd1wRisKmXnsH");
 }
 .skw-page-4 .skw-page__half--right .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/sections-3.jpg");
+  background-position: center;
+  background-image: url("img4.png");
 }
 .skw-page-5 .skw-page__half--left .skw-page__content {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/img-test.jpg");
+  background-position: center;
+  background-image: url("img2.jpg");
 }
 .skw-page-5 .skw-page__half--right .skw-page__content {
-  background: #292929;
+  background-position: center;
+  background-image: url("img12.jpeg");
 }
 
 @media screen and (max-width: 600px) {
