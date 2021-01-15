@@ -132,11 +132,11 @@ h1{
 }
 .skw-page-4 .skw-page__half--left .skw-page__content {
   background-position: center;
-  background-color: orange;
+  background-color: rgb(46, 35, 85);
 }
 .skw-page-4 .skw-page__half--right .skw-page__content {
   background-position: center;
-  background-image: url("img4.png");
+  background-image: url("img14.JPG");
 }
 .skw-page-5 .skw-page__half--right .skw-page__content{
   background-color: palevioletred;
@@ -148,16 +148,16 @@ h1{
 }
 @media screen and (max-width: 600px) {
   .skw-page__half--left .skw-page__content {
-    padding-left: 20%;
-    padding-right: 3%;
-    padding-bottom: 300px;
+    padding-left: 23%;
+    padding-right: 8%;
+    padding-bottom: 340px;
     transform-origin: 100% 0;
-    margin-right: 20pxpx;
+    margin-right: 20px;
   }
   .skw-page__half--right .skw-page__content {
-    padding-left: 20%;
+    padding-left: 10%;
     padding-right: 15%;
-    padding-top: 300px;
+    padding-top: 325px;
     transform-origin: 0 100%;
   }
 
@@ -194,6 +194,7 @@ h1{
     }
     .skw-page-4 .skw-page__half--right .skw-page__content {
       background-position: cover;
-      background-image: url("img4.png");
+      background-image: url("img14\ 2.JPG");
+      background-size: 400px 900px;
     } 
 }
