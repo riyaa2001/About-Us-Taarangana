@@ -104,8 +104,7 @@ h1{
 }
 .skw-page-1 .skw-page__half--left .skw-page__content {
   background-position: center;
-  background-image: url("i_logo2.jpeg");
-  background-color: white;
+  background-image: url("https://images.shiksha.com/mediadata/images/1562591954phpe67t5j.jpeg");
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
   background-position: auto auto;
@@ -149,16 +148,16 @@ h1{
 }
 @media screen and (max-width: 600px) {
   .skw-page__half--left .skw-page__content {
-    padding-left: 15%;
+    padding-left: 25%;
     padding-right: 5%;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
     transform-origin: 100% 0;
-    margin-right: 10px;
+    margin-right: 20pxpx;
   }
   .skw-page__half--right .skw-page__content {
-    padding-left: 5%;
-    padding-right: 15%;
-    padding-top: 300px;
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-top: 350px;
     transform-origin: 0 100%;
   }
 
@@ -190,7 +189,8 @@ h1{
     font-size: 85%;
   }
     .skw-page-1 .skw-page__half--left .skw-page__content {
-      background-image: url("i_logo3.jpeg");
+      background-image: url("https://images.shiksha.com/mediadata/images/1562591954phpe67t5j.jpeg");
+      background-position: center;
     }
     .skw-page-4 .skw-page__half--right .skw-page__content {
       background-position: cover;
