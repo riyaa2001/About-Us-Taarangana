@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background: #15181A;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -96,6 +95,7 @@ h1{
   text-align: center;
 }
 .skw-page__description {
+  font-family: 'Yusei Magic', sans-serif;
   font-size: 18px;
   text-align: center;
 }
@@ -104,21 +104,19 @@ h1{
 }
 .skw-page-1 .skw-page__half--left .skw-page__content {
   background-position: center;
-  opacity: 0.4;
-  font-size: xx-large;
-  background-image: url("https://media-exp1.licdn.com/dms/image/C511BAQGewPf3OCFrMQ/company-background_10000/0/1531682173387?e=2159024400&v=beta&t=Ns92fzokhAPk1mZOCuwFxB5hUOafW6O6Lo-OaD86kTM");
+  background-image: url("i_logo2.jpeg");
+  background-color: white;
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
-  background-position: cover;
-  background-image: url("https://pbs.twimg.com/profile_images/682837594409844736/-vkKIoMI.jpg");
-  opacity: 0.4;
+  background-position: auto auto;
+  background-image: url("img112.jpeg");
   font-size: xx-large;
   background-repeat: no-repeat;
   object-fit: cover;
 }
 .skw-page-2 .skw-page__half--left .skw-page__content {
   background-position: center;
-  background-image: url("https://fsb.zobj.net/crop.php?r=51rsIpA4lO7cULPjq06rzDtvEVj8WRmulDcoSgsHO7b542dLAavDd-ulwjMK8KeCNC6bTGv8_4gqUf5VG8VMM5rCfrt3JlOKxH7MpUW-OTePMvrn5lnvnk95vgx8mZP6-_bgd1wRisKmXnsH");
+  background-color: rgb(223, 223, 0);
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
   background-position: center;
@@ -131,15 +129,22 @@ h1{
 }
 .skw-page-3 .skw-page__half--right .skw-page__content {
   background-position: center;
-  background-image: url("https://fsb.zobj.net/crop.php?r=51rsIpA4lO7cULPjq06rzDtvEVj8WRmulDcoSgsHO7b542dLAavDd-ulwjMK8KeCNC6bTGv8_4gqUf5VG8VMM5rCfrt3JlOKxH7MpUW-OTePMvrn5lnvnk95vgx8mZP6-_bgd1wRisKmXnsH");
+  background-color: rgb(0, 0, 136);
 }
 .skw-page-4 .skw-page__half--left .skw-page__content {
   background-position: center;
-  background-image: url("https://fsb.zobj.net/crop.php?r=51rsIpA4lO7cULPjq06rzDtvEVj8WRmulDcoSgsHO7b542dLAavDd-ulwjMK8KeCNC6bTGv8_4gqUf5VG8VMM5rCfrt3JlOKxH7MpUW-OTePMvrn5lnvnk95vgx8mZP6-_bgd1wRisKmXnsH");
+  background-color: orange;
 }
 .skw-page-4 .skw-page__half--right .skw-page__content {
   background-position: center;
   background-image: url("img4.png");
+}
+.skw-page-5 .skw-page__half--right .skw-page__content{
+  background-color: pink;
+  color: white;
+}
+.skw-page-5 .skw-page__half--left .skw-page__content{
+  background-image: url("https://ffwallpaper.com/thumb/colorful-patterns/colorful-patterns-4.jpg");
 }
 @media screen and (max-width: 600px) {
   .skw-page__half--left .skw-page__content {
@@ -183,20 +188,11 @@ h1{
     font-size: 85%;
   }
     .skw-page-1 .skw-page__half--left .skw-page__content {
-      background-position: 70% 100%;
-      padding-bottom: 500px;
-      background-image: url("https://media-exp1.licdn.com/dms/image/C511BAQGewPf3OCFrMQ/company-background_10000/0/1531682173387?e=2159024400&v=beta&t=Ns92fzokhAPk1mZOCuwFxB5hUOafW6O6Lo-OaD86kTM");
-    }
-    .skw-page-1 .skw-page__half--right .skw-page__content {
-      background-position: auto auto;
-      background-image: url("https://pbs.twimg.com/profile_images/682837594409844736/-vkKIoMI.jpg");
-      opacity: 0.4;
-      background-repeat: no-repeat;
-      object-fit: cover;
+      height: 700px;
+      
     }
     .skw-page-4 .skw-page__half--right .skw-page__content {
       background-position: cover;
       background-image: url("img4.png");
-    }
+    } 
 }
-
