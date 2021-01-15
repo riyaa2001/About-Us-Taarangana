@@ -153,6 +153,7 @@ h1{
     padding-right: 3%;
     padding-bottom: 300px;
     transform-origin: 100% 0;
+    margin-right: 10px;
   }
   .skw-page__half--right .skw-page__content {
     padding-left: 3%;
@@ -189,7 +190,6 @@ h1{
     font-size: 85%;
   }
     .skw-page-1 .skw-page__half--left .skw-page__content {
-      height: 700px;
       background-image: url("i_logo3.jpeg");
     }
     .skw-page-4 .skw-page__half--right .skw-page__content {
