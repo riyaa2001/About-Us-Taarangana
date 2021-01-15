@@ -117,14 +117,13 @@ h1{
   background-image: url("https://fsb.zobj.net/crop.php?r=51rsIpA4lO7cULPjq06rzDtvEVj8WRmulDcoSgsHO7b542dLAavDd-ulwjMK8KeCNC6bTGv8_4gqUf5VG8VMM5rCfrt3JlOKxH7MpUW-OTePMvrn5lnvnk95vgx8mZP6-_bgd1wRisKmXnsH");
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
-  background-position: left;
+  background-position: center;
   background-image: url("img11.jpeg");
 }
 .skw-page-3 .skw-page__half--left .skw-page__content {
-  background-position: right;
+  background-position: center;
   background-image: url("img8.jpeg");
   padding-bottom: 100px;
-  background-size: 800px 700px;
 }
 .skw-page-3 .skw-page__half--right .skw-page__content {
   background-position: center;
@@ -139,13 +138,12 @@ h1{
   background-image: url("img4.png");
 }
 .skw-page-5 .skw-page__half--left .skw-page__content {
-  background-position: center;
-  background-image: url("img2.jpg");
+  background-position: 1000px 700px;
+  background-image: url("img14.jpg");
 }
 .skw-page-5 .skw-page__half--right .skw-page__content {
-  background-position: right;
+  background-position: 1000px 700px;
   background-image: url("img12.jpeg");
-  background-size: 800px 700px;
 }
 
 @media screen and (max-width: 600px) {
